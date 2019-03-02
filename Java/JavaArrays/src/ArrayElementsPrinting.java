@@ -6,19 +6,11 @@ public class ArrayElementsPrinting {
 
         int [] arrTwentyElements = new int [20];
 
-
-
-        for (int index = 0; index < arrTwentyElements.length ; index++) {
-
-
-            arrTwentyElements[index] = index*5;
-
-
-
+        for (int index = 0; index < arrTwentyElements.length; index++) {
+            arrTwentyElements[index] = index * 5;
         }
 
         System.out.println(Arrays.toString(arrTwentyElements));
-
     }
 
 }
